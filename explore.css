@@ -1,0 +1,95 @@
+   *{margin: 0px;background-color: black}
+
+img.one:hover{transform: rotateY(30deg)}
+img.two:hover{transform: rotate(360deg)}
+img.all:hover{transform: rotateX(360deg)}
+img.x{clip-path:circle(30%)}
+
+img.x:hover{animation-name: pic;position: relative;animation-duration: 2s;transition-timing-function: ease-in-out;animation-timing-function: ease-in;animation-fill-mode: forwards;}
+@keyframes pic{0% { transform: rotateY(.1turn)}
+
+    100%{transform: rotate(.1turn)}
+
+}
+img.prime:hover{}
+        
+div.main{ height: 1500px;width:auto;background-repeat: no-repeat;background-image: url(earth_2.jpg);animation-name: main;animation-duration: 1.5s;animation-fill-mode:backwards;animation-iteration-count: 2;animation-timing-function: ease-out;position: relative;animation-direction: alternate}
+@keyframes main{0%{opacity: 0}
+    70%{opacity: 25}
+    100%{transform: rotateY(.27turn)}
+   
+}
+div.ann1{height: 100px;width: 200px;background-image: url(hoodie_mask_man-2560x1440.jpg);position: relative;border-radius: 100px;;animation-name:ann;animation-duration: 9s;animation-fill-mode: forwards;animation-iteration-count: infinite;animation-timing-function: ease-in;}
+div.ann2{height: 100px;width: 200px;background-image: url(hoodie_mask_man-2560x1440.jpg);position: relative;border-radius: 100px;;animation-name:ann2;animation-duration: 9s;animation-fill-mode: forwards;animation-iteration-count: infinite;animation-timing-function: ease-in;}
+@keyframes ann{
+    0%{ background-image: url(205994.jpg);left: 0px}
+    10%{background-image: url(004.JPG);left: 200px}
+    20%{background-image: url(maxresdefault.jpg);left: 300px}
+    40%{background-image: url(748245.jpg);left: 500px}
+    50%{background-image: url(002.JPG);left: 700px}
+    60%{background-image: url(532.JPG);left: 800px}
+    80%{background-image: url(page%201.jpg);left: 900px}
+    90%{background-image: url(1689364.jpg);left: 1000px}
+    100%{background-image: url(180673.jpg);left: 1500px}
+    
+}
+@keyframes ann2{
+    0%{ background-image: url(205994.jpg);left: 0px}
+    10%{background-image: url(004.JPG);left: 100px}
+    20%{background-image: url(maxresdefault.jpg);left: 150px}
+    40%{background-image: url(748245.jpg);left: 300px}
+    50%{background-image: url(002.JPG);left: 500px}
+    60%{background-image: url(532.JPG);left: 600px}
+    80%{background-image: url(page%201.jpg);left: 700px}
+    90%{background-image: url(1689364.jpg);left: 1000px}
+    100%{background-image: url(180673.jpg);left: 1500px}
+    
+}
+
+        
+        div.phones{ height: auto;width:auto;background-color: }
+
+
+        div.music{ height: 250px;width: 250px;background-color: }
+
+        div.pictures{ height: 250px;width: 250px;background-color:black}
+        div.cars{ height:20px;width: 250px;background-color: brown}
+        div.fun{ height: 250px;width: 250px;background-color: orange}
+        
+        div.intro{ margin-left: 1%;;margin-top:20px;text-align: center; background-color: red;}
+        div.intro2{ margin-left: 1%;;margin-top:10px;text-align: center; background-color: red;animation-name: in2;animation-duration: 2s;animation-fill-mode: forwards;animation-iteration-count: infinite;animation-timing-function: ease-in;}
+        div.intro3{ margin-left: 1%;;margin-top:10px;text-align: center; background-color: red;animation-name: in3;animation-duration: 3s;animation-fill-mode: forwards;animation-iteration-count: infinite;animation-timing-function: ease-in-out;}
+@keyframes in3 {
+    0%{transform: rotateY(0deg)}
+    100%{transform: rotateY(360deg)}
+}
+
+@keyframes in2{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotateX(350deg)}
+    
+    
+}
+        
+        h1.world{color: aqua;font-family: cursive;letter-spacing: 2px;animation-name: fade;animation-duration: 4s;animation-fill-mode: forwards;animation-iteration-count: infinite;animation-timing-function: ease-in-out;}
+        h1.as{color: aqua;font-family:serif;letter-spacing: 2px;}
+        h1.it{color: aqua;font-family:monospace;letter-spacing: 2px;}
+       
+       img.one{height: 500px;width:600px;float: left;transition: 1s;transition-duration: 1s}
+       img.two{height: 250px;width:250px;transition: 3s;transition-duration: 3s}
+       img.three{height: 250px;width:250px;transition: 3s;transition-duration: 3s}
+       img.four{height: 350px;width:350px;float: left;transition: 3s;transition-duration: 3s}
+       img.rolls{height: 350px;width:350px;float: left;transition: 3s;transition-duration: 3s}
+       img.ex{height: 500px;width:500px;float: left;transition: 3s;transition-duration: 3s}
+div.1st{color: white;font-size: 50px}
+
+p.in{color: white;font-size: 30px;letter-spacing: 3px;font-family: inherit}
+p.in2{color: white;font-size: 30px;letter-spacing: 3px;font-family: sans-serif}
+div.ccc{background-color: red;height: 200px}
+
+
+
+
+
+
+        

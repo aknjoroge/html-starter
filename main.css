@@ -1,0 +1,26 @@
+div.button{padding-left: 4%;margin-left: 41%}
+    li{float: left; display:block; width:100px;margin:5px;padding: 2px ; text-decoration: none;border: 2px solid red;position: relative;object-position: top;width: 200px;background-image: url(hoodie_mask_man-2560x1440.jpg);text-transform: capitalize;padding-left: 8%;border-radius: 50px 10px 70px ;letter-spacing: 2px} 
+
+
+li:hover{background-image: url(748245.jpg);color: yellow;cursor: cell;transform: rotate(4deg);transform: skewX(200deg)}
+
+button.two{background-color: orangered;border-radius: 15px 50px 50px 15px;color: white;transition-duration: 2s}
+
+button.two:hover{background-color: blue;width: 100px;height: 30px;}
+
+label.signin{background-color:}
+div.welcome{margin-left: 500px}
+p.alex{color: white;font-size: 10px;animation-name: name;animation-duration: 2s;animation-iteration-count:infinite;animation-fill-mode: forwards;animation-timing-function: ease-in-out}
+@keyframes name{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotateY(360deg)}
+}
+
+        
+div.login{
+                padding-left: 40%;font-size: 20px;width: 200px;animation-name: login;animation-duration: 500ms;animation-iteration-count:12;animation-timing-function: ease-out;animation-fill-mode: forwards
+            }
+@keyframes login{
+    0%{opacity: 0;}
+    100%{opacity: 25;}
+}
